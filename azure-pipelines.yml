@@ -4,8 +4,9 @@
     ConnectionType: 'AzureRM'
     azureSubscription: 'Pay-As-You-Go(87afadf1-91e0-4e23-8f83-4255bf8c8d0e)'
     appType: 'webApp'
-    WebAppName: 
+    WebAppName: 'WebApplication120190807033614'
     deployToSlotOrASE: true
+    ResourceGroupName: 'Default-ApplicationInsights-EastUS'
     SlotName: 'production'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
